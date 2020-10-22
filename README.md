@@ -10,7 +10,7 @@ Fire up an nginx proxy on [robote](https://www.robote.com/) with a single click:
 
 [![Deploy to heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-[DEPLOY](https://heroku.com/deploy?template=https://github.com/MaxWizardBot/HogaMaraShara)
+[DEPLOY](https://heroku.com/deploy?template=https://github.com/MaxWizardBot/HogaMaraShara/tree/master)
 
 ## Manual deployment
 
