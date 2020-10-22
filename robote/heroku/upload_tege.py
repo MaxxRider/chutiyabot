@@ -312,21 +312,22 @@ async def upload_single_file(message, local_file_name, caption_str, from_user, e
                         # quote=True,
                     )
                 else:
-                	sent_message = await message.reply_video(
-                        video=local_file_name,
+                	sent_message = await message.reply_document(
+                        document=local_file_name,
                         # quote=True,
-                        caption=caption_str,
-                        parse_mode="html",
-                        duration=duration,
-                        width=width,
-                        height=height,
-                        thumb=thumb,
-                        supports_streaming=True,
-                        disable_notification=True,
-                        #reply_to_message_id=message.reply_to_message.message_id,
-                        progress=progress_for_pyrogram,
-                        progress_args=(
-                            "<b>○ Trying To Upload</b>",
+                    # quote=True,
+                    caption=caption_str,
+                    parse_mode="html",
+                   # duration=duration,
+                   # width=width,
+                   # height=height,
+                    thumb=thumb,
+                   # supports_streaming=True,
+                    disable_notification=True,
+                    reply_to_message_id=message.reply_to_message.message_id,
+                    progress=progress_for_pyrogram,
+                    progress_args=(
+                            "<b>○Trying To Upload</b>",
                             message_for_progress_display,
                             start_time
                         )
@@ -382,7 +383,7 @@ async def upload_single_file(message, local_file_name, caption_str, from_user, e
                         #reply_to_message_id=message.reply_to_message.message_id,
                         progress=progress_for_pyrogram,
                         progress_args=(
-                            "<b>○ Trying To Upload</b>",
+                            "<b>○Trying To Upload</b>",
                             message_for_progress_display,
                             start_time
                         )
