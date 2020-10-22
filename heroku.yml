@@ -1,0 +1,8 @@
+build:
+  docker:
+    release:
+       dockerfile: Dockerfile
+       target: builder
+    worker: Dockerfile
+run:
+  worker: python3 -m robote

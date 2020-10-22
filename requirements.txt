@@ -1,0 +1,8 @@
+aiohttp
+aria2p
+https://github.com/sahadz/Pyrogram/archive/asyncio.zip
+tgcrypto
+hachoir
+Pillow
+youtube-dl
+hurry.filesize

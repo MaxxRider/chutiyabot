@@ -1,0 +1,8 @@
+{
+  "name": "robote-docker-python-build",
+  "description": "A barebones python installation using Docker",
+  "repository": "https://github.com/dugembot/nginceng",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/240px-Python-logo-notext.svg.png",
+  "keywords": ["python", "docker", "telegram"],
+  "stack": "container"
+}

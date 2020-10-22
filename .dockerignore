@@ -1,0 +1,6 @@
+.git
+*.md
+*.yml
+app.json
+move.sh
+Dockerfile
